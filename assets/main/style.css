@@ -19,19 +19,28 @@
 }
 
 .my-grid{
-  width: 700px;
+  width: 630px;
   aspect-ratio: 1;
   margin-top: 3rem;
 }
 
 .my-cell{
-  height: 70px;
   aspect-ratio: 1;
   border: 1px solid black;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
+}
+
+.whidth-easy{
+  width: 63px;
+}
+.whidth-normal{
+  width: 70px;
+}
+.whidth-hard{
+  width: 90px;
 }
 
 .active{

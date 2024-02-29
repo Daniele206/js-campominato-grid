@@ -12,9 +12,17 @@
   <div class="main-wrapper bg-primary">
     <div class="top-barr">
       <h1 class="fw-bold text-center my-title">Campo minato</h1>
-      <div class="my-menu m-3">
-        <button id="play-game-btn" class="btn btn-warning mx-2">Play Game</button>
-        <button id="reset-game-btn" class="btn btn-warning">Reset</button>
+      <div class="my-menu m-3 d-flex">
+        <div class="mt-1 me-2 fs-5">Selezziona la difficoltá:</div>
+        <div>
+          <select class="form-select bg-warning border-warning mb-1 select-difficulty">
+            <option id="easy" value="easy">Facile</option>
+            <option id="normal" value="normal">Normale</option>
+            <option id="hard" value="hard">Difficile</option>
+          </select>
+          <button id="reset-game-btn" class="btn btn-warning">Reset</button>
+          <button id="play-game-btn" class="btn btn-warning">Play Game</button>
+        </div>
       </div>
       <div class="my-main d-flex justify-content-center">
         <div class="my-grid d-none flex-wrap bg-info">

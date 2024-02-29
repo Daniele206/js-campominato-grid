@@ -1,0 +1,32 @@
+.main-wrapper{
+  min-height: 100vh;
+}
+
+.top-barr{
+  position: relative;
+}
+
+.my-title{
+  font-size: 4rem;
+  padding-top: 2rem;
+  justify-self: center;
+}
+
+.my-menu{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.my-grid{
+  width: 700px;
+  aspect-ratio: 1;
+  margin-top: 3rem;
+}
+
+.my-cell{
+  height: 70px;
+  aspect-ratio: 1;
+  background-color: red;
+  border: 1px solid black;
+}

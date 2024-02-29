@@ -22,6 +22,7 @@ function addCell(num){
   const cl = document.createElement('div');
   cl.classList.add('my-cell');
   cl.addEventListener('click', function (){
+    console.log(num);
     this.classList.toggle('active');
     this.innerHTML = (this.classList.contains('active')) ? this.innerHTML = num  : this.innerHTML = '';
   });
@@ -30,7 +31,7 @@ function addCell(num){
     cl.classList.remove('active');
     cl.innerHTML = '';
   });
-  
+
   return cl;
 }
 
@@ -41,6 +42,6 @@ playGameBtn.addEventListener('click', function(){
 });
 
 for(let i=1; i <= numCell; i++){
-  const cell = addCell(i)
-  myGrid.append(cell)
+  const cell = addCell(i);
+  myGrid.append(cell);
 }

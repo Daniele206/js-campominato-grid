@@ -27,10 +27,13 @@
 .my-cell{
   height: 70px;
   aspect-ratio: 1;
-  background-color: red;
   border: 1px solid black;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
+}
+
+.active{
+  background-color: red;
 }
